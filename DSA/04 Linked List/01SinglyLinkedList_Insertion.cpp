@@ -6,10 +6,9 @@ using namespace std;
 struct Node{
     int data;
     Node *next;
+};
 
-  
-  // Node *second = nullptr;
-} *first = nullptr;
+Node *first = nullptr;
 
 void Insert(struct Node* &first , int x)
 {
